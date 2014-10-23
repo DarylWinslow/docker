@@ -29,6 +29,7 @@ RUN pip install -r /my_application/requirements.txt
 
 # Expose ports
 EXPOSE 5000
+EXPOSE 80
 
 RUN mkdir /my_application/uploads
 

@@ -43,8 +43,5 @@ def show_post(post_id):
     return 'Post %d' % post_id
 
 
-#function to return names of files in upload directory
 def list_files():
-        mypath = "/home/user/lab4/docker/python-flask/my_application/upload"
-	onlyfiles = [ f for f in listdir(mypath) if isfile(join(mypath,f)) ]
-	return (onlyfiles)
+	onlyfiles = [ f for f in listdir() if isfile(join(mypath,f)) ]
